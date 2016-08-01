@@ -38,7 +38,7 @@ To use the bash wrapper, simply source <tt>pyconfconv.sh</tt> with the right arg
 source `which pyconfconv.sh` examples/config.ini hosts
 ```
 
-# From an R script
+## From an R script
 
 To use the R wrapper, you need to make sure that <tt>pyconfconv.py</tt> is in your $PATH and, source <tt>pyconfconv.r</tt> and then eval either <tt>pyconfconverts(filename, section)</tt> or <tt>pyconfconvert(filename)</tt> depending on whether you want to pull out a section or not.
 
